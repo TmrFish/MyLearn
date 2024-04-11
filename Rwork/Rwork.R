@@ -1,0 +1,15 @@
+x <- c(825,215,1070,550,480,920,1350,325,670,1215)
+y <- c(3.5,1.0,4.0,2.0,1.0,3.0,4.5,1.5,3.0,5.0)
+plot(x,y,main="每周签发的新保单数目与每周加班时间关系图",xlab = "每周签发的新保单数目",ylab="每周加班时间")
+lm2.15 = lm(y~x)
+summary(lm2.15)
+confint(lm2.15)
+anova(lm2.15)
+cor.test(x,y)
+SRE<-rstandard(lm2.15)
+plot(x,SRE,xlab ="每周签发的新保单数目",ylab = "学生化残差",main = "残差图")
+new<-data.frame(x = 1000)
+ypred<-predict(lm2.15,new,interval = "prediction",level = 0.95)
+yconf<-predict(lm2.15,new,interval = "confidence",level = 0.95)
+ypred
+yconf
