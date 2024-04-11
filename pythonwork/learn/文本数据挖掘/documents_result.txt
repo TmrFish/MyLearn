@@ -1,0 +1,3 @@
+Topic 0 Probability: 0.9992330074310303
+Topic 4 Probability: 0.9953699111938477
+Topic 3 Probability: 0.9931676983833313

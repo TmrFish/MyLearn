@@ -1,0 +1,17 @@
+#python classify/predict.py --source G:/mod/testdata_V2/folder_1 --save-txt --project G:\mod\testdata_V2 --name result1
+
+#python classify/predict.py --source G:/mod/testdata_V2/folder_2 --save-txt --project G:\mod\testdata_V2 --name result2
+
+python classify/predict.py --source G:/mod/testdata_V2/folder_3 --save-txt --project G:\mod\testdata_V2 --name result3
+
+python classify/predict.py --source G:/mod/testdata_V2/folder_4 --save-txt --project G:\mod\testdata_V2 --name result4
+
+python classify/predict.py --source G:/mod/testdata_V2/folder_5 --save-txt --project G:\mod\testdata_V2 --name result5
+
+python classify/val.py  --imgsz 640
+--data G:/work/pythonwork/yolov5-master/classify/roadold
+
+
+python classify/predict.py  --save-txt
+
+python test.py --weights G:/work/pythonwork/yolov5-master/runs/train-cls/expv5s100/weights/best.pt --data G:/work/pythonwork/yolov5-master/classify/roadold
