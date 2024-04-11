@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1668667924 source:g:\codeblocks\cworkl\huffmancode\huffmancode\src\huffmancode.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../Include/HuffmanCode.h"
+
+1668667019 source:g:\codeblocks\cworkl\huffmancode\huffmancode\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Include/HuffmanCode.h"
+
+1668668621 g:\codeblocks\cworkl\huffmancode\huffmancode\include\huffmancode.h
+

@@ -1,0 +1,5 @@
+abbac       abbacbcab
+baae         aaabbba
+ab            abaca
+aba          bbabaceda
+bba          baaacbac
